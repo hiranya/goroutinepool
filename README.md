@@ -30,6 +30,7 @@ func main() {
 type CounterCmd struct {
 }
 
+// Provide an Exec() function to implement the Command interface provided by goroutinepool library
 func (cmd *CounterCmd) Exec() {
 	// -----
 	// your time consuming job
