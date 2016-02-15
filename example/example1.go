@@ -16,6 +16,7 @@ func main() {
 type CounterCmd struct {
 }
 
+// Provide an Exec() function to implement the Command interface provided by goroutinepool library
 func (cmd *CounterCmd) Exec() {
 	fmt.Println("Counter:", time.Now())
 	time.Sleep(time.Millisecond * 2000)

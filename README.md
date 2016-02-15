@@ -3,9 +3,11 @@ A simple goroutine pool for Golang.
 
 goroutinepool uses channels as a semaphore to implement this.
 
+## Documentation
+https://godoc.org/github.com/hiranya/goroutinepool
 
 ## Example
-See example/example1.go for a working code example
+See example/example1.go for a working example
 ```go
 package main
 
